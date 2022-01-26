@@ -1,0 +1,43 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Compiled bundle, etc
+build/
+
+# Dependency directories
+node_modules/
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Docusaurus cache and generated files
+.docusaurus
+
+### react ###
+.DS_*
+**/*.backup.*
+**/*.back.*
+
+node_modules
+
+psd
+thumb
+sketch
