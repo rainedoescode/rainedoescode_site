@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 2px;
+  padding: 2px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  height: 100vh;
+}
