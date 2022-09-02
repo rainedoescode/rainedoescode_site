@@ -5,8 +5,8 @@
 *{
   box-sizing: border-box;
   border: 1px solid black;
-  margin: 2px;
-  padding: 2px;
+  /* margin: 2px;
+  padding: 2px; */
 }
 
 body, html {
@@ -17,4 +17,38 @@ body, html {
 
 html {
   height: 100vh;
+}
+
+#changing_text1 {
+  margin-left: 100%;
+  animation-name: slidein;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+#changing_text2 {
+  margin-left: 100%;
+  animation-name: slidein;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+#changing_text3 {
+  margin-left: 100%;
+  animation-name: slidein;
+  animation-delay: 3s;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
 }
